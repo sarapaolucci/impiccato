@@ -1,0 +1,10 @@
+facile = Spagna
+facile = Italia
+facile = Francia
+facile = Germania
+facile = Grecia
+medio = Lituania
+medio = Lettonia
+medio = Estonia
+medio = Lussemburgo
+medio = Brasile

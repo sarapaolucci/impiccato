@@ -1,0 +1,15 @@
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\bin\Debug\net6.0\_impiccato_.exe
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\bin\Debug\net6.0\_impiccato_.deps.json
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\bin\Debug\net6.0\_impiccato_.runtimeconfig.json
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\bin\Debug\net6.0\_impiccato_.dll
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\bin\Debug\net6.0\_impiccato_.pdb
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.csproj.AssemblyReference.cache
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.AssemblyInfoInputs.cache
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.AssemblyInfo.cs
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.csproj.CoreCompileInputs.cache
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.dll
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\refint\_impiccato_.dll
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.pdb
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\_impiccato_.genruntimeconfig.cache
+C:\Users\paolucci.sara\Documents\Visual Studio 2022\_impiccato_\_impiccato_\obj\Debug\net6.0\ref\_impiccato_.dll
