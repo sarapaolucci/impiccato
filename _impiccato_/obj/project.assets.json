@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\paolucci.sara\\.nuget\\packages\\": {}
+    "C:\\Users\\sarap\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paolucci.sara\\Documents\\Visual Studio 2022\\_impiccato_\\_impiccato_\\_impiccato_.csproj",
+      "projectUniqueName": "C:\\Users\\sarap\\OneDrive\\Documenti\\GitHub\\impiccato\\_impiccato_\\_impiccato_.csproj",
       "projectName": "_impiccato_",
-      "projectPath": "C:\\Users\\paolucci.sara\\Documents\\Visual Studio 2022\\_impiccato_\\_impiccato_\\_impiccato_.csproj",
-      "packagesPath": "C:\\Users\\paolucci.sara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paolucci.sara\\Documents\\Visual Studio 2022\\_impiccato_\\_impiccato_\\obj\\",
+      "projectPath": "C:\\Users\\sarap\\OneDrive\\Documenti\\GitHub\\impiccato\\_impiccato_\\_impiccato_.csproj",
+      "packagesPath": "C:\\Users\\sarap\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sarap\\OneDrive\\Documenti\\GitHub\\impiccato\\_impiccato_\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\paolucci.sara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sarap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -40,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -51,16 +62,35 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.35, 6.0.35]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.35, 6.0.35]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.35, 6.0.35]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.35, 6.0.35]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

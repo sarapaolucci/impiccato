@@ -1,0 +1,15 @@
+facile = scream
+facile = titanic
+facile = frozen
+facile = joker
+facile = dune
+medio = barbie
+medio = wonder
+medio = gifted
+medio = anora
+medio = ironman
+difficile = oppenheimer
+difficile = interstellar
+difficile = clueless 
+difficile = deadpool
+difficile = insidious

@@ -1,0 +1,15 @@
+facile = shameless
+facile = elite
+facile = tredici
+facile = dynasty
+facile = lucifer
+medio = inhumans
+medio = suits
+medio = rebelde
+medio = bridgerton
+medio = euphoria
+difficile = smallville
+difficile = daredevil
+difficile = shadowhunters
+difficile = echo
+difficile = absentia

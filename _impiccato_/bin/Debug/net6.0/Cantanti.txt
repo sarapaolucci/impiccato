@@ -1,0 +1,15 @@
+facile = geolier
+facile = lazza
+facile = anna
+facile = ultimo
+facile = tedua
+medio = marracash
+medio = rihanna
+medio = beyonce
+medio = eminem
+medio = bresh
+difficile = future
+difficile = adele
+difficile = zayn
+difficile = nitro
+difficile = izi
