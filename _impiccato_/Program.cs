@@ -1,42 +1,4 @@
 ﻿Random random = new Random();
-Console.WriteLine("Benvenuto nel gioco dell'impiccato");
-bool t = false;
-string parola = "";
-while(t == false)
-{
-    Console.WriteLine("Scegli tema tra stati, cantanti, film e serie");
-    string tema = Console.ReadLine();
-    tema = tema.ToLower();
-    if (tema == "stati")
-    {
-        string x = "Stati.txt";
-        parola = stampaopzioni(x);
-        t = true;
-    }
-    else if (tema == "serie")
-    {
-        string x = "Serie.txt";
-        parola = stampaopzioni(x);
-        t = true;
-    }
-    else if (tema == "film")
-    {
-        string x = "Film.txt";
-        parola = stampaopzioni(x);
-        t = true;
-    }
-    else if (tema == "cantanti")
-    {
-        string x = "Cantanti.txt";
-        parola = stampaopzioni(x);
-        t = true;
-    }
-    else
-    {
-        Console.WriteLine("Hai sbagliato a scrivere");
-    }
-}
-Console.WriteLine(parola);
 string stampaopzioni(string x)
 {
     string[] lines = File.ReadAllLines(x); // Legge tutte le righe e le mette in un vettore
@@ -71,8 +33,68 @@ string stampaopzioni(string x)
         {
             Console.WriteLine("Hai sbagliato a scrivere");
         }
-        
+
     }
     int r = random.Next(i, j);
     return lines[r].Substring(l);
+}
+bool y = true;
+string paroleindovinate = "Ancora non hai indovinato nessuna parola";
+while (y == true)
+{
+    Console.WriteLine("Benvenuto nel gioco dell'impiccato,scegli cosa vuoi fare \n a) Indovina la parola \n b) Elenco parole indovinate \n c) Esci");
+    string mossa = Console.ReadLine();
+    if (mossa.ToLower() == "a")
+    {
+        bool t = false;
+        string parola = "";
+        while (t == false)
+        {
+            Console.WriteLine("Scegli tema tra stati, cantanti, film e serie");
+            string tema = Console.ReadLine();
+            tema = tema.ToLower();
+            if (tema == "stati")
+            {
+                string x = "Stati.txt";
+                parola = stampaopzioni(x);
+                t = true;
+            }
+            else if (tema == "serie")
+            {
+                string x = "Serie.txt";
+                parola = stampaopzioni(x);
+                t = true;
+            }
+            else if (tema == "film")
+            {
+                string x = "Film.txt";
+                parola = stampaopzioni(x);
+                t = true;
+            }
+            else if (tema == "cantanti")
+            {
+                string x = "Cantanti.txt";
+                parola = stampaopzioni(x);
+                t = true;
+            }
+            else
+            {
+                Console.WriteLine("Hai sbagliato a scrivere");
+            }
+        }
+        Console.WriteLine(parola);
+    }
+    else if(mossa.ToLower() == "b")
+    {
+        Console.WriteLine(paroleindovinate);
+    }
+    else if(mossa.ToLower() == "c")
+    {
+        Console.WriteLine("Arrivederci");
+        y = false;
+    }
+    else
+    {
+        Console.WriteLine("Hai sbagliato a scrivere");
+    }
 }

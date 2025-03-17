@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XH5UtFBVyAI=",
+  "dgSpecHash": "Pd6YpKpnoCKskdZrLbUzqP3Un7z2GqaZb3TRNbpouz959XFWkm4rWVCLX+SNsH38CEwoX0egujjMEKQCtnR75w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sarap\\OneDrive\\Documenti\\GitHub\\impiccato\\_impiccato_\\_impiccato_.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\sarap\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\sarap\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\sarap\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\sarap\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\paolucci.sara\\Desktop\\GitHub\\impiccato\\_impiccato_\\_impiccato_.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
