@@ -14,19 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("_impiccato_")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a374c9e0f2606d894c5e960026e2682d0b1124f")]
->>>>>>> Stashed changes
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a374c9e0f2606d894c5e960026e2682d0b1124f")]
->>>>>>> Stashed changes
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a374c9e0f2606d894c5e960026e2682d0b1124f")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b7c446debd7ed3a93d1a33bedf9cb525ce17f4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("_impiccato_")]
 [assembly: System.Reflection.AssemblyTitleAttribute("_impiccato_")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
