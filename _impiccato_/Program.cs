@@ -43,6 +43,9 @@ while(t == false)
 Console.WriteLine(parola);
 Console.WriteLine(ntentativi);
 string stampaparola(string x,ref int n)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 {
     string[] lines = File.ReadAllLines(x); // Legge tutte le righe e le mette in un vettore
