@@ -44,6 +44,9 @@ Console.WriteLine(parola);
 Console.WriteLine(ntentativi);
 string stampaparola(string x,ref int n)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
