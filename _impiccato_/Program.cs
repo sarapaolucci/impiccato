@@ -1,5 +1,49 @@
 ﻿Random random = new Random();
+<<<<<<< Updated upstream
 string stampaopzioni(string x)
+=======
+Console.WriteLine("Benvenuto nel gioco dell'impiccato");
+bool t = false;
+string parola = "";
+int ntentativi = 0;
+while(t == false)
+{
+    Console.WriteLine("Scegli tema tra stati, cantanti, film e serie");
+    string tema = Console.ReadLine();
+    tema = tema.ToLower();
+    if (tema == "stati")
+    {
+        string x = "Stati.txt";
+        parola = stampaparola(x, ref ntentativi);
+        t = true;
+    }
+    else if (tema == "serie")
+    {
+        string x = "Serie.txt";
+        parola = stampaparola(x, ref ntentativi);
+        t = true;
+    }
+    else if (tema == "film")
+    {
+        string x = "Film.txt";
+        parola = stampaparola(x, ref ntentativi);
+        t = true;
+    }
+    else if (tema == "cantanti")
+    {
+        string x = "Cantanti.txt";
+        parola = stampaparola(x, ref ntentativi);
+        t = true;
+    }
+    else
+    {
+        Console.WriteLine("Hai sbagliato a scrivere");
+    }
+}
+Console.WriteLine(parola);
+Console.WriteLine(ntentativi);
+string stampaparola(string x,ref int n)
+>>>>>>> Stashed changes
 {
     string[] lines = File.ReadAllLines(x); // Legge tutte le righe e le mette in un vettore
     bool e = false;
@@ -14,6 +58,7 @@ string stampaopzioni(string x)
             j = 5;
             l = 9;
             e = true;
+            n = 5;
         }
         else if (difficolta == "medio")
         {
@@ -21,6 +66,7 @@ string stampaopzioni(string x)
             j = 10;
             l = 8;
             e = true;
+            n = 7;
         }
         else if (difficolta == "difficile")
         {
@@ -28,6 +74,7 @@ string stampaopzioni(string x)
             j = 15;
             l = 12;
             e = true;
+            n = 10;
         }
         else
         {
