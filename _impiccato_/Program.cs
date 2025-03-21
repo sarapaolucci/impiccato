@@ -48,11 +48,10 @@ void trattini(string parola, ref string[] par)
         par[i] = "_ ";
     }
 }
-void provalettera (string parola, ref string [] par)
+void provalettera ( ref string [] par, string[]r)
 {
     Console.WriteLine("Inserisci lettera");
     string l = Console.ReadLine();
-    string[] r = parola.Split("");
     for (int i = 0; i < r.Length; i++)
     {
         if (r[i] == l)
@@ -120,13 +119,14 @@ while (y == true)
         trattini(parola, ref par);
         stamparray(par);
         bool j = true;
+        string[] r = parola.Split("");
         while (j == true)
         {
             Console.WriteLine("Dimmi cosa vuoi fare ora: \n a) Prova lettera \n b) Indovina parola \n c) Indizi limitati (A scelta tra prima, ultima lettera o entrambe)\n d) Oggetti jolly (lettera casuale) ");
             string cosa = Console.ReadLine();
             if (cosa == "a" || cosa.ToLower() == "prova lettera")
             {
-                provalettera(parola, ref par);
+                provalettera(ref par , r);
                 stamparray(par);
                 j = false;
             }
