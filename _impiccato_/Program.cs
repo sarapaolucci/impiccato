@@ -53,7 +53,7 @@ void trattini(string parola, ref string[] par)
 }
 void provalettera(ref string[] par, string[] r, string parola, ref int ntentativi, ref string lettere_provate)
 {
-    Console.WriteLine("Inserisci lettera (se sbagli sprechi due tentativi)");
+    Console.WriteLine("Inserisci lettera (se sbagli sprechi un tentativo)");
     string l = Console.ReadLine();
     lettere_provate = lettere_provate + l + ", ";
     if (parola.Contains(l) == true)
@@ -72,7 +72,6 @@ void provalettera(ref string[] par, string[] r, string parola, ref int ntentativ
         Console.WriteLine("Non hai indovinato la lettera!");
         ntentativi--;
     }
-    ntentativi--;
 }
 void stamparray(string[] a)
 {
@@ -193,12 +192,20 @@ while (y == true)
         {
             Console.WriteLine("Dimmi cosa vuoi fare ora: \n a) Prova lettera \n b) Indovina parola \n c) Indizi limitati (A scelta tra prima, ultima lettera o entrambe. Ogni lettera ti costa un tentativo)");
             string cosa = Console.ReadLine();
+            Console.WriteLine("I tentativi rimasti sono " + ntentativi);
             if (cosa == "a" || cosa.ToLower() == "prova lettera")
             {
 
                 provalettera(ref par, r, parola, ref ntentativi, ref lettere_provate);
                 stamparray(par);
-
+                if (lettere_provate == "")
+                {
+                    Console.WriteLine("Ancora non hai provato nessuna lettera");
+                }
+                else
+                {
+                    Console.WriteLine("Le lettere provate sono: " + lettere_provate);
+                }
             }
             else if (cosa == "b" || cosa.ToLower() == "indovina parola")
             {
@@ -232,18 +239,6 @@ while (y == true)
             {
                 Console.WriteLine("Hai esaurito i tentativi!!! La parola era " + parola);
                 j = false;
-            }
-            if( j == true)
-            {
-                Console.WriteLine("I tentativi rimasti sono " + ntentativi);
-                if (lettere_provate == "")
-                {
-                    Console.WriteLine("Ancora non hai provato nessuna lettera");
-                }
-                else
-                {
-                    Console.WriteLine("Le lettere provate sono: " + lettere_provate);
-                }
             }
             Console.WriteLine("------------------------------------------");
         }
